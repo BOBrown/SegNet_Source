@@ -48,7 +48,7 @@ unzip data.zip
 ```
 
 ## Dowloading the ImageNet pretrained model
-- ImageNet pretrained weights \[[Dataset Page](https://drive.google.com/file/d/1JU3ZJmjwRJpUP5JuJhUNrGqKnovOGxSE/view?usp=sharing)\]
+- ImageNet pretrained weights \[[Dataset Page](https://drive.google.com/file/d/1CZIJ5IJMPrsFB5URU76GJ5LjWqpRKjSM/view?usp=sharing)\]
 
 ## Train the source-only model from ImageNet pretrained model
 ```
