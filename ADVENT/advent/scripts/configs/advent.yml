@@ -1,0 +1,18 @@
+SOURCE: PotsdamIRRG #Vaihingen  PotsdamIRRG
+TARGET: Vaihingen
+NUM_WORKERS: 8
+GPU_ID: 0
+EXP_NAME: 'deeplab_v3_PotsdamIRRG_source'
+
+
+TRAIN:
+  MODEL: DeepLabv3
+  RESTORE_FROM: ../../pretrained_models/DeepLab_resnet_pretrained_imagenet.pth
+  #../../pretrained_models/DeepLab_resnet_pretrained_imagenet.pth
+  MULTI_LEVEL: False
+  LAMBDA_SEG_MAIN: 1.0
+  LAMBDA_SEG_AUX: 0.1
+  LAMBDA_SEG_LOW: 0.1
+
+TEST:
+  MODE: best
